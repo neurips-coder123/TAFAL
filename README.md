@@ -3,6 +3,9 @@
 This repository contains the code for **TAFAL**.  
 It is anonymized for double-blind NeurIPS review.
 
+## Layerwise Subspace Overlap
+![Layer-wise Subspace Overlap with ImageNet](assets/layerwise_subspace_overlap.png)
+
 ## Environment Setup
 
 ### Requirements
