@@ -17,6 +17,20 @@ It is anonymized for double-blind NeurIPS review.
 
 ## Layerwise Subspace Overlap
 ![Layer-wise Subspace Overlap with ImageNet](assets/layerwise_subspace_overlap.png)
+| λ | SUN397 (Target / ImageNet) | MNIST (Target / ImageNet) |
+|--:|---------------------------:|--------------------------:|
+| 0.1 | 37.35 / 80.23 | 2.95 / 67.12 |
+| 0.5 | 36.92 / 79.91 | 2.95 / 67.12 |
+| 1 | 34.97 / 78.05 | 2.95 / 67.12 |
+| 5 | 31.01 / 74.69 | — |
+| 10 | 29.49 / 72.56 | 2.95 / 67.12 |
+| 20 | — | 2.95 / 67.12 |
+| 50 | 27.59 / 69.01 | 2.95 / 67.12 |
+| 100 | 26.93 / 67.96 | 2.95 / 67.12 |
+| 500 | 26.08 / 66.79 | — |
+| 1,000 | 25.25 / 65.53 | — |
+| 10,000 | 25.74 / 66.19 | — |
+| 50,000 | 25.80 / 66.30 | — |
 
 ## Comparison with TIES and CAT Merging
 
