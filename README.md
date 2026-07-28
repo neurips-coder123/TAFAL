@@ -3,6 +3,18 @@
 This repository contains the code for **TAFAL**.  
 It is anonymized for double-blind NeurIPS review.
 
+## Comparison of Model Merging Capabilities
+
+| **Capability** | **RegMean** | **CAT** | **TA / ATLAS / TALOS** | **TaFaL (Ours)** |
+|:---|:---:|:---:|:---:|:---:|
+| Task Addition | ✅ | ✅ | ✅ | ✅ |
+| Task Negation | ❌ | ❌ | ✅ | ✅ |
+| Mixed Addition + Negation | ❌ | ❌ | ❌ | ✅ |
+| LLM Alignment (Chosen + Rejected) | ❌ | ❌ | ❌ | ✅ |
+| Toxicity Reduction (Negating Toxic Behavior) | ❌ | ❌ | ✅ | ✅ |
+| Training-Free | ✅ | ✅ | ❌ (ATLAS/TauJP require training) | ✅ |
+| Closed-Form Solution | ✅ | ✅ | ❌ | ✅ |
+
 ## Layerwise Subspace Overlap
 ![Layer-wise Subspace Overlap with ImageNet](assets/layerwise_subspace_overlap.png)
 
